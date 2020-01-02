@@ -4,7 +4,7 @@
   <group>
     <variant frequency="1" name="Base">
       <mesh>skeletal/horse.dae</mesh>
-      <textures><texture file="skeletal/horse_pers_csw_b.dds" name="baseTex"/></textures>
+<!--       <textures><texture file="skeletal/horse_pers_csw_b.dds" name="baseTex"/></textures> -->
     </variant>
   </group>
   <group>
@@ -28,7 +28,7 @@
     <variant file="quadraped/base_horse_run.xml"/>
     <variant file="quadraped/base_horse_gather_meat.xml" name="gather_meat">
       <props>
-        <prop actor="units/han/cavalry_archer_b_r.xml" attachpoint="rider_R"/>
+        <prop actor="units/xion/cavalry_archer_b_r.xml" attachpoint="rider_R"/>
       </props>
     </variant>
   </group>

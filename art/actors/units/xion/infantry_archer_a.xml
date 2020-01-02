@@ -57,7 +57,7 @@
     <variant frequency="1" name="Cloth_H">
       <textures>
         <texture file="skeletal/xion_advanced_h.png" name="baseTex"/>
-        <texture file="skeletal/chin_isp_a_b_spec.png" name="specTex"/>
+        <texture file="skeletal/xion_elite_d_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

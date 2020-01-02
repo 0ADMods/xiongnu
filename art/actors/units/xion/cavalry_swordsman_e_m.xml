@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" file="quadraped/base_horse_archer_fast.xml" name="Base">
+    <variant frequency="1" name="Base">
       <mesh>skeletal/horse.dae</mesh>
     </variant>
   </group>
@@ -26,7 +26,7 @@
       </props>
     </variant>
   </group>
-  <group>
+<!--  <group>
     <variant frequency="1" name="Horse-Texture-Plain">
       <textures><texture file="skeletal/horse_kart_cjv_b_1.dds" name="baseTex"/></textures>
     </variant>
@@ -36,7 +36,7 @@
     <variant frequency="1" name="Horse-Texture-Boots">
       <textures><texture file="skeletal/horse_kart_cjv_b_3.dds" name="baseTex"/></textures>
     </variant>
-  </group>
+  </group>-->
   <group>
     <variant file="quadraped/horse/brown.xml" frequency="1" name="brown"/>
     <variant file="quadraped/horse/dark_chestnut.xml" frequency="1" name="dark_chestnut"/>
@@ -50,7 +50,7 @@
     <variant file="quadraped/base_horse_run.xml"/>
     <variant file="quadraped/base_horse_gather_meat.xml" name="gather_meat">
       <props>
-        <prop actor="units/han/cavalry_swordsman_e_r.xml" attachpoint="rider_R"/>
+        <prop actor="units/xion/cavalry_swordsman_e_r.xml" attachpoint="rider_R"/>
       </props>
     </variant>
   </group>
