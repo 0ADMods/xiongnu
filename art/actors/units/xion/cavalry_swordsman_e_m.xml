@@ -4,9 +4,16 @@
     <group>
         <variant>
             <mesh>skeletal/horse.dae</mesh>
+            <props>
+                <prop actor="props/horse/cav_blanket_leather_02.xml" attachpoint="root"/>
+                <prop actor="props/horse/cav_straps_head_kush.xml" attachpoint="head"/>
+                <prop actor="units/xion/cavalry_swordsman_e_r.xml" attachpoint="rider"/>
+                <prop actor="props/horse/cav_straps_xion.xml" attachpoint="root"/>
+                <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
+            </props>
         </variant>
     </group>
-    <group>
+  <!--  <group>
         <variant frequency="1" name="rider_relax">
             <props>
                 <prop actor="props/horse/cav_blanket_leather_02.xml" attachpoint="root"/>
@@ -22,10 +29,10 @@
                 <prop actor="props/horse/cav_straps_head_kush.xml" attachpoint="head"/>
                 <prop actor="units/xion/cavalry_swordsman_e_r_1.xml" attachpoint="rider"/>
                 <prop actor="props/horse/cav_straps_xion.xml" attachpoint="root"/>
-        <!--         <prop actor="props/horse/cav_rein_swordsman_shield.xml" attachpoint="head"/> -->
+                <prop actor="props/horse/cav_rein_swordsman_shield.xml" attachpoint="head"/>
             </props>
         </variant>
-    </group>
+    </group>-->
 <!--  <group>
     <variant frequency="1" name="Horse-Texture-Plain">
       <textures><texture file="skeletal/horse_kart_cjv_b_1.dds" name="baseTex"/></textures>

@@ -57,7 +57,7 @@
         </variant>
     </group>
     <group>
-        <variant file="biped/rider/cavalry/base_archer_relax_hip.xml" frequency="1" name="relax"/>
+        <variant file="biped/rider/cavalry/base_archer_relax_hip.xml" frequency="1" name="relax-hip"/>
         <variant file="biped/rider/carry_meat.xml"/>
     </group>
     <group>

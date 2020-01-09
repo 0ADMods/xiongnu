@@ -6,10 +6,11 @@
             <mesh>skeletal/horse.dae</mesh>
             <props>
                 <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
+                <prop actor="units/xion/cavalry_spearman_b_r.xml" attachpoint="rider"/>
             </props>
             </variant>
     </group>
-    <group>
+<!--    <group>
         <variant frequency="1" name="rider_a">
             <props>
                 <prop actor="units/xion/cavalry_spearman_b_r.xml" attachpoint="rider"/>
@@ -20,7 +21,7 @@
                 <prop actor="units/xion/cavalry_spearman_b_r_2.xml" attachpoint="rider"/>
             </props>
         </variant>
-    </group>
+    </group>-->
     <group>
         <variant file="quadraped/horse/brown.xml" frequency="1" name="brown"/>
         <variant file="quadraped/horse/dark_chestnut.xml" frequency="1" name="dark_chestnut"/>

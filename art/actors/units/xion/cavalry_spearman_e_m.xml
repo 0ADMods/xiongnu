@@ -3,10 +3,17 @@
     <castshadow/>
     <group>
         <variant>
-        <mesh>skeletal/horse.dae</mesh>
+            <mesh>skeletal/horse.dae</mesh>
+            <props>
+                <prop actor="units/xion/cavalry_spearman_e_r.xml" attachpoint="rider"/>
+                <prop actor="props/horse/cav_blanket_leather_02.xml" attachpoint="root"/>
+                <prop actor="props/horse/cav_straps_head_kush.xml" attachpoint="head"/>
+                <prop actor="props/horse/cav_straps_xion.xml" attachpoint="root"/>
+                <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
+            </props>
         </variant>
     </group>
-    <group>
+  <!--  <group>
         <variant frequency="1" name="rider_a">
             <props>
                 <prop actor="units/xion/cavalry_spearman_e_r.xml" attachpoint="rider"/>
@@ -25,7 +32,7 @@
                 <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
             </props>
         </variant>
-    </group>
+    </group>-->
 <!--  <group>
     <variant frequency="1" name="Horse-Texture-Plain">
       <textures>
