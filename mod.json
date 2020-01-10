@@ -2,8 +2,8 @@
 	"name": "Xiongnu",
 	"label": "0 A.D. Xiongnu",
 	"version": "1.0.0",
-	"url": "https://github.com/0ADMods/Xiongnu",
+	"url": "https://github.com/0ADMods/xiongnu",
 	"description": "Adds Xiongnu civilization to 0 A.D.",
-	"dependencies": ["0ad>=0.0.23"],
+	"dependencies": ["0ad=0.0.24"],
 	"type": "civ"
 }
