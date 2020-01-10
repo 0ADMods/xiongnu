@@ -43,9 +43,9 @@
       <RequiredTechnology>nomadism</RequiredTechnology>
     </Pack>
   </Upgrade>
-  <Vision>
+<!--  <Vision>
     <Range>0</Range>
-  </Vision>
+  </Vision>-->
   <VisualActor>
     <Actor>structures/xion/xion_wagon_corral_pivot.xml</Actor>
   </VisualActor>

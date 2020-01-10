@@ -30,9 +30,9 @@
       <walk>actor/singlesteps/steps_grass.xml</walk>
     </SoundGroups>
   </Sound>
-  <Vision>
+<!--  <Vision>
     <Range>0</Range>
-  </Vision>
+  </Vision>-->
   <UnitMotion>
     <FormationController>false</FormationController>
     <WalkSpeed>5.5</WalkSpeed>

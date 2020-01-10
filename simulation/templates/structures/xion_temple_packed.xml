@@ -43,9 +43,9 @@
     <WalkSpeed>5.5</WalkSpeed>
     <PassabilityClass>large</PassabilityClass>
   </UnitMotion>
-  <Vision>
+<!--  <Vision>
     <Range>0</Range>
-  </Vision>
+  </Vision>-->
   <VisualActor>
     <Actor>structures/xion/xion_wagon_house.xml</Actor>
   </VisualActor>

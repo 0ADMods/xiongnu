@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <variant file="biped/rider/attack_slaughter.xml" name="attack_slaughter">
   <props>
     <prop actor="props/units/weapons/xion_sword.xml" attachpoint="weapon_R"/>
