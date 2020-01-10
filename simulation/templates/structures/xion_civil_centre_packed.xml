@@ -42,9 +42,9 @@
       <RequiredTechnology>nomadism</RequiredTechnology>
     </Unpack>
   </Upgrade>
-  <Vision>
+<!--  <Vision>
     <Range>0</Range>
-  </Vision>
+  </Vision>-->
   <Position>
     <Anchor>pitch</Anchor>
     <TurnRate>0.20</TurnRate>
