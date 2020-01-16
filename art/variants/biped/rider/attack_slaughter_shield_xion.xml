@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <variant file="biped/rider/attack_slaughter_shield.xml">
-  <props>
-    <prop actor="props/units/weapons/xion_sword.xml" attachpoint="weapon_R"/>
-  </props>
+    <props>
+        <prop actor="props/units/weapons/sword/xion_sword.xml" attachpoint="weapon_R"/>
+    </props>
 </variant>

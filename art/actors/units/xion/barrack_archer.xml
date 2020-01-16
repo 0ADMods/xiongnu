@@ -9,8 +9,8 @@
       </animations>
       <props>
         <prop actor="props/units/heads/xion_head.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/xion_bow_barracks.xml" attachpoint="weapon_L"/>
-        <prop actor="props/units/weapons/xion_arrow_back.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/bow/xion_bow_barracks.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/weapons/arrow/xion_arrow_back.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
         <texture file="skeletal/xion_cloth_a.png" name="baseTex"/>

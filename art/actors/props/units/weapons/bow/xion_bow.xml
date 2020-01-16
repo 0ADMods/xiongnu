@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<actor version="1">
+    <castshadow/>
+    <group>
+        <variant frequency="100" name="Wood Light">
+            <mesh>props/weapons/bow/weap_xion_bow.dae</mesh>
+            <textures>
+                <texture file="structural/xion_structure.png" name="baseTex"/>
+            </textures>
+            <animations>
+                <animation event="0.35" file="mechanical/weap_xion_bow_attack.dae" load="0.75" name="Attack_ranged" speed="168" id="Attack1"/>
+                <animation event="0.35" file="mechanical/weap_xion_bow_attack.dae" load="0.75" name="Attack_ranged" speed="168" id="Attack2"/>
+                <animation event="0.35" file="mechanical/weap_xion_bow_attack.dae" load="0.75" name="Attack_ranged" speed="168" id="Attack3"/>
+                <animation event="0.35" file="mechanical/weap_xion_bow_attack.dae" load="0.75" name="Attack_ranged" speed="168" id="Attack4"/>
+            </animations>
+        </variant>
+<!--        <variant frequency="100" name="Wood Dark">
+            <mesh>props/weapons/bow/weap_xion_bow_b.dae</mesh>
+            <textures>
+                <texture file="structural/xion_structure.png" name="baseTex"/>
+            </textures>
+            <animations>
+                <animation event="0.35" file="mechanical/weap_xion_bow_attack.dae" load="0.75" name="Attack_ranged" speed="120" id="Attack1"/>
+                <animation event="0.35" file="mechanical/weap_xion_bow_attack.dae" load="0.75" name="Attack_ranged" speed="120" id="Attack2"/>
+                <animation event="0.35" file="mechanical/weap_xion_bow_attack.dae" load="0.75" name="Attack_ranged" speed="120" id="Attack3"/>
+                <animation event="0.35" file="mechanical/weap_xion_bow_attack.dae" load="0.75" name="Attack_ranged" speed="120" id="Attack4"/>
+            </animations>
+        </variant>-->
+    </group>
+    <material>player_trans.xml</material>
+</actor>
+
+

@@ -6,7 +6,7 @@
 		<mesh>skeletal/new/m_armor_nomad_b.dae</mesh>
       <props>
         <prop actor="props/units/heads/xion_head.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/xion_quiver_cloth.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/quivers/xion_quiver_cloth.xml" attachpoint="sheath_L"/>
       </props>
     </variant>
   </group>

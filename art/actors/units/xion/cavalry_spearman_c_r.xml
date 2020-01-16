@@ -6,10 +6,10 @@
             <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
             <props>
                 <prop actor="props/units/heads/xion_head.xml" attachpoint="head"/>
-                <prop actor="props/units/weapons/xion_spear.xml" attachpoint="weapon_R"/>
-                <prop actor="props/units/weapons/xion_sword_sheath_left.xml" attachpoint="sheath_L"/>
+                <prop actor="props/units/weapons/spear/xion_spear.xml" attachpoint="weapon_R"/>
+                <prop actor="props/units/weapons/sheath/xion_sword_sheath_left.xml" attachpoint="sheath_L"/>
                 <prop actor="props/units/helmets/xion_neck_guard.xml" attachpoint="head"/>
-                <prop actor="props/units/weapons/xion_quiver_cavalry_right_b.xml" attachpoint="sheath_R"/>
+                <prop actor="props/units/quivers/xion_quiver_cavalry_right_b.xml" attachpoint="sheath_R"/>
                 <prop actor="props/units/helmets/xion_warlord.xml" attachpoint="helmet"/>
             </props>
             <textures>

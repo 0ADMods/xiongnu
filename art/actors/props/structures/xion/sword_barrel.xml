@@ -10,15 +10,15 @@
         <texture file="structural/xion_structure_spec.png" name="specTex"/>
       </textures>
       <props>
-        <prop actor="props/units/weapons/xion_sword.xml" attachpoint="sword_a"/>
-        <prop actor="props/units/weapons/xion_sword.xml" attachpoint="sword_b"/>
-        <prop actor="props/units/weapons/xion_sword.xml" attachpoint="sword_c"/>
-        <prop actor="props/units/weapons/xion_sword.xml" attachpoint="sword_d"/>
-        <prop actor="props/units/weapons/xion_sword.xml" attachpoint="sword_e"/>
-        <prop actor="props/units/weapons/xion_sword.xml" attachpoint="sword_f"/>
-        <prop actor="props/units/weapons/xion_sword.xml" attachpoint="sword_g"/>
-        <prop actor="props/units/weapons/xion_sword.xml" attachpoint="sword_h"/>
-        <prop actor="props/units/weapons/xion_sword.xml" attachpoint="sword_i"/>
+        <prop actor="props/units/weapons/sword/xion_sword.xml" attachpoint="sword_a"/>
+        <prop actor="props/units/weapons/sword/xion_sword.xml" attachpoint="sword_b"/>
+        <prop actor="props/units/weapons/sword/xion_sword.xml" attachpoint="sword_c"/>
+        <prop actor="props/units/weapons/sword/xion_sword.xml" attachpoint="sword_d"/>
+        <prop actor="props/units/weapons/sword/xion_sword.xml" attachpoint="sword_e"/>
+        <prop actor="props/units/weapons/sword/xion_sword.xml" attachpoint="sword_f"/>
+        <prop actor="props/units/weapons/sword/xion_sword.xml" attachpoint="sword_g"/>
+        <prop actor="props/units/weapons/sword/xion_sword.xml" attachpoint="sword_h"/>
+        <prop actor="props/units/weapons/sword/xion_sword.xml" attachpoint="sword_i"/>
       </props>
     </variant>
   </group>

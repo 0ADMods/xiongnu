@@ -5,9 +5,9 @@
     <variant>
       <mesh>skeletal/new/f_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/weapons/xion_bow.xml" attachpoint="weapon_L"/>
-        <prop actor="props/units/weapons/xion_bow_holder_fem.xml" attachpoint="sheath_R"/>
-        <prop actor="props/units/weapons/xion_quiver_cloth_cavalry_left.xml" attachpoint="sheath_L"/>
+        <prop actor="props/units/weapons/bow/xion_bow.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/quivers/xion_bow_holder_fem.xml" attachpoint="sheath_R"/>
+        <prop actor="props/units/quivers/xion_quiver_cloth_cavalry_left.xml" attachpoint="sheath_L"/>
         <prop actor="props/units/heads/head_female_xion.xml" attachpoint="head"/>
       </props>
     </variant>
@@ -61,7 +61,7 @@
     </variant>
     <variant frequency="100" name="run">
       <props>
-        <prop actor="props/units/weapons/xion_bow.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/weapons/bow/xion_bow.xml" attachpoint="weapon_L"/>
       </props>
     </variant>
    </group>
@@ -77,7 +77,7 @@
     <variant name="Idle" frequency="1"/>
     <variant file="biped/attack_ranged_archer_hip.xml">
       <props>
-        <prop actor="props/units/weapons/xion_bow.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/weapons/bow/xion_bow.xml" attachpoint="weapon_L"/>
       </props>
     </variant>
     <variant file="biped/attack_slaughter.xml"/>

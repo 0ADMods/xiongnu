@@ -9,7 +9,7 @@
       </animations>
       <props>
         <prop actor="props/units/heads/xion_head.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/xion_sword.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/weapons/sword/xion_sword.xml" attachpoint="weapon_L"/>
       </props>
       <textures>
         <texture file="skeletal/xion_cloth_a.png" name="baseTex"/>

@@ -36,13 +36,13 @@
         <prop actor="props/structures/xion/pelt_b.xml" attachpoint="Blacksmith_rug_b" maxheight="20" minheight="-20"/>
         <prop actor="props/structures/xion/pelt_b.xml" attachpoint="Blacksmith_rug_c" maxheight="20" minheight="-20"/>
         <prop actor="props/structures/xion/pelt_b.xml" attachpoint="Blacksmith_rug_d" maxheight="20" minheight="-20"/>
-        <prop actor="props/units/weapons/xion_bow.xml" attachpoint="bow_a" maxheight="20" minheight="-20"/>
-        <prop actor="props/units/weapons/xion_bow.xml" attachpoint="bow_b" maxheight="20" minheight="-20"/>
-        <prop actor="props/units/weapons/xion_bow.xml" attachpoint="bow_c" maxheight="20" minheight="-20"/>
-        <prop actor="props/units/weapons/xion_bow.xml" attachpoint="bow_d" maxheight="20" minheight="-20"/>
-        <prop actor="props/units/weapons/xion_bow.xml" attachpoint="bow_e" maxheight="20" minheight="-20"/>
-        <prop actor="props/units/weapons/xion_bow.xml" attachpoint="bow_f" maxheight="20" minheight="-20"/>
-        <prop actor="props/units/weapons/xion_bow.xml" attachpoint="bow_g" maxheight="20" minheight="-20"/>
+        <prop actor="props/units/weapons/bow/xion_bow.xml" attachpoint="bow_a" maxheight="20" minheight="-20"/>
+        <prop actor="props/units/weapons/bow/xion_bow.xml" attachpoint="bow_b" maxheight="20" minheight="-20"/>
+        <prop actor="props/units/weapons/bow/xion_bow.xml" attachpoint="bow_c" maxheight="20" minheight="-20"/>
+        <prop actor="props/units/weapons/bow/xion_bow.xml" attachpoint="bow_d" maxheight="20" minheight="-20"/>
+        <prop actor="props/units/weapons/bow/xion_bow.xml" attachpoint="bow_e" maxheight="20" minheight="-20"/>
+        <prop actor="props/units/weapons/bow/xion_bow.xml" attachpoint="bow_f" maxheight="20" minheight="-20"/>
+        <prop actor="props/units/weapons/bow/xion_bow.xml" attachpoint="bow_g" maxheight="20" minheight="-20"/>
         <prop actor="props/structures/xion/spear_barrel.xml" attachpoint="Blacksmith_spears" maxheight="20" minheight="-20"/>
         <prop actor="props/structures/xion/stool.xml" attachpoint="stool_a" maxheight="20" minheight="-20"/>
         <prop actor="props/structures/xion/stool.xml" attachpoint="stool_b" maxheight="20" minheight="-20"/>
