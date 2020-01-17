@@ -11,12 +11,10 @@
                 <prop actor="props/units/helmets/xion_neck_guard.xml" attachpoint="head"/>
                 <prop actor="props/units/quivers/xion_quiver_cavalry_left.xml" attachpoint="sheath_L"/>
             </props>
-            <textures>
-                <texture file="skeletal/xion_warlord.png" name="baseTex"/>
-                <texture file="skeletal/xion_elite_norm.png" name="normTex"/>
-                <texture file="skeletal/xion_elite_spec.png" name="specTex"/>
-            </textures>
         </variant>
+    </group>
+    <group>
+        <variant file="clothes/xion/warlord.xml"/>
     </group>
     <group>
         <variant frequency="5" name="Helmet_a">

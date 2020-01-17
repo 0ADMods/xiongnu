@@ -13,21 +13,12 @@
     <group>
         <variant name="med">
             <mesh>props/weapons/sheath/weap_xion_sword_a_sheath_right.dae</mesh>
-            <props>
-                <prop actor="props/units/weapons/sword/xion_sword.xml" attachpoint="sword"/>
-            </props>
         </variant>
         <variant name="light">
             <mesh>props/weapons/sheath/weap_xion_sword_b_sheath_right.dae</mesh>
-            <props>
-                <prop actor="props/units/weapons/sword/xion_sword.xml" attachpoint="sword"/>
-            </props>
         </variant>
         <variant name="Small">
             <mesh>props/weapons/sheath/weap_xion_sword_d_sheath_right.dae</mesh>
-            <props>
-                <prop actor="props/units/weapons/sword/xion_sword.xml" attachpoint="sword"/>
-            </props>
         </variant>
     </group>
     <material>player_trans_spec.xml</material>
