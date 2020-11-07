@@ -28,7 +28,7 @@
       -units/{civ}_infantry_spearman_b
       -units/{civ}_infantry_pikeman_b
       -units/{civ}_infantry_swordsman_b
-      -units/{civ}_infantry_javelinist_b
+      -units/{civ}_infantry_javelineer_b
       -units/{civ}_infantry_slinger_b
       -units/{civ}_infantry_archer_b
     </Entities>
