@@ -32,8 +32,7 @@
   	</Entities>
     <Technologies datatype="tokens">
       gather_animals_nomadic_pastoralism
-	  speed_cavalry_01
-      speed_cavalry_02
+      cavalry_movement_speed
       -heal_barracks
       -training_conscription    
   	</Technologies>
