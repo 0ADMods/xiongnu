@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="structures/xion_blacksmith">
+<Entity parent="structures/xion_forge">
   <Footprint replace="">
     <Circle radius="16.0"/>
     <Height>8.0</Height>
@@ -9,7 +9,7 @@
   </Health>
   <Upgrade>
     <BlacksmithReconstructed>
-      <Entity>structures/xion_blacksmith</Entity>
+      <Entity>structures/xion_forge</Entity>
       <Cost>
         <wood>150</wood>
       </Cost>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_blacksmith">
+<Entity parent="template_structure_military_forge">
   <Cost>
     <PopulationBonus>2</PopulationBonus>
   </Cost>
@@ -11,7 +11,7 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}_support_wagon
-      units/{civ}_siege_ram_blacksmith
+      units/{civ}_siege_ram_forge
     </Entities>
     <Technologies datatype="tokens">
       unlock_champion_units_xion
@@ -22,7 +22,7 @@
   </BuildRestrictions>
   <Upgrade>
     <BlacksmithPacked>
-      <Entity>structures/xion_blacksmith_packed</Entity>
+      <Entity>structures/xion_forge_packed</Entity>
       <Time>45</Time>
       <RequiredTechnology>nomadism</RequiredTechnology>
     </BlacksmithPacked>
