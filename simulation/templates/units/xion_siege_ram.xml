@@ -12,11 +12,6 @@
       <RepeatTime>1700</RepeatTime>
     </Melee>
   </Attack>
-  <Armour>
-    <Hack>2</Hack>
-    <Pierce>10</Pierce>
-    <Crush>8</Crush>
-  </Armour>
   <Footprint replace="">
     <Square width="6.75" depth="9.0"/>
     <Height>3.0</Height>
@@ -29,6 +24,15 @@
   <Health>
     <Max>200</Max>
   </Health>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>2</Hack>
+        <Pierce>10</Pierce>
+        <Crush>8</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <Sound>
     <SoundGroups>
       <select>voice/{lang}/civ/civ_{phenotype}_select.xml</select>
