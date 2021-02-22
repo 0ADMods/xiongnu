@@ -22,21 +22,7 @@
       <Time>25</Time>
     </BarracksReconstructed>
   </Upgrade>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Entities datatype="tokens">
-      -units/{civ}/infantry_spearman_b
-      -units/{civ}/infantry_pikeman_b
-      -units/{civ}/infantry_swordsman_b
-      -units/{civ}/infantry_javelineer_b
-      -units/{civ}/infantry_slinger_b
-      -units/{civ}/infantry_archer_b
-    </Entities>
-    <Technologies datatype="tokens">
-      -heal_barracks
-      -training_conscription
-    </Technologies>
-  </ProductionQueue>
+  <ProductionQueue disable=""/>
   <BuildRestrictions>
     <Territory>own neutral</Territory>
   </BuildRestrictions>

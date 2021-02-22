@@ -16,12 +16,7 @@
       <Time>25</Time>
     </CorralReconstructed>
   </Upgrade>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      -units/{civ}/champion_cavalry
-      -gaia/fauna_sheep_trainable
-    </Entities>
-  </ProductionQueue>
+  <ProductionQueue disable=""/>
   <BuildRestrictions>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
