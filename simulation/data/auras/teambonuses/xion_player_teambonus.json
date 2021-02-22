@@ -6,6 +6,7 @@
 	"affectedPlayers": [
 		"ExclusiveMutualAlly"
 	],
+	"civ": "xion",
 	"modifications": [
 		{
 			"value": "Cost/Resources/food",
