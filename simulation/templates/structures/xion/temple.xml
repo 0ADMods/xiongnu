@@ -36,8 +36,8 @@
   </Obstruction>
   <TerritoryDecay disable=""/>
   <VisualActor>
-	<ConstructionPreview disable=""/>
+    <ConstructionPreview disable=""/>
     <Actor>structures/xion/temple.xml</Actor>
-	<FoundationActor>structures/xion/temple_foundation.xml</FoundationActor>
+    <FoundationActor>structures/xion/temple_foundation.xml</FoundationActor>
   </VisualActor>
 </Entity>

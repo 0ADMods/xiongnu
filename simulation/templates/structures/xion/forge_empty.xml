@@ -22,7 +22,7 @@
       -units/{civ}_support_wagon
     </Entities>
     <Technologies datatype="tokens">
-	    -attack_infantry_melee_01
+      -attack_infantry_melee_01
       -attack_infantry_melee_02
       -attack_infantry_ranged_01
       -attack_infantry_ranged_02
@@ -49,7 +49,7 @@
     <Static width="25.0" depth="25.0"/>
   </Obstruction>
   <VisualActor>
-	<ConstructionPreview disable=""/>
+    <ConstructionPreview disable=""/>
     <Actor>structures/xion/blacksmith_empty.xml</Actor>
   </VisualActor>
 </Entity>

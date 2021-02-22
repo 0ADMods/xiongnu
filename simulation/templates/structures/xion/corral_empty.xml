@@ -18,9 +18,9 @@
   </Upgrade>
   <ProductionQueue>
     <Entities datatype="tokens">
-	  -units/{civ}/champion_cavalry
-	  -gaia/fauna_sheep_trainable
-  	</Entities>
+      -units/{civ}/champion_cavalry
+      -gaia/fauna_sheep_trainable
+    </Entities>
   </ProductionQueue>
   <BuildRestrictions>
     <Territory>own neutral</Territory>
@@ -33,7 +33,7 @@
     <Static width="26.0" depth="26.0"/>
   </Obstruction>
   <VisualActor>
-	<ConstructionPreview disable=""/>
+    <ConstructionPreview disable=""/>
     <Actor>structures/xion/corral_empty.xml</Actor>
   </VisualActor>
 </Entity>

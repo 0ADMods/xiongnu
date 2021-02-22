@@ -28,7 +28,7 @@
     </Pack>
   </Upgrade>
   <VisualActor>
-	<ConstructionPreview disable=""/>
+    <ConstructionPreview disable=""/>
     <Actor>structures/xion/house.xml</Actor>
     <FoundationActor>structures/xion/house_foundation.xml</FoundationActor>
   </VisualActor>

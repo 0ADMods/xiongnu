@@ -49,7 +49,7 @@
     <Static width="35.0" depth="35.0"/>
   </Obstruction>
   <VisualActor>
-	<ConstructionPreview disable=""/>
+    <ConstructionPreview disable=""/>
     <Actor>structures/xion/barracks_empty.xml</Actor>
   </VisualActor>
 </Entity>
