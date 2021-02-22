@@ -15,8 +15,7 @@
   </Health>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      heal_barracks
-      training_conscription
+      -unlock_champion_infantry
       xion/special_archery_tradition
     </Technologies>
   </ProductionQueue>

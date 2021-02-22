@@ -12,16 +12,12 @@
   </BuildRestrictions>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Entities datatype="tokens">
-      -units/{civ}/support_healer_b
-    </Entities>
+    <Entities disable=""/>
     <Technologies datatype="tokens">
-     -heal_range
-     -heal_range_2
-     -heal_rate
-     -heal_rate_2
-      heal_temple
-      health_regen_units
+      -heal_range
+      -heal_range_2
+      -heal_rate
+      -heal_rate_2
     </Technologies>
   </ProductionQueue>
   <Upgrade>
