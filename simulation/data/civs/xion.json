@@ -5,34 +5,13 @@
 	"Emblem": "session/portraits/emblems/emblem_xiongnu.png",
 	"History": "The Xiongnu were formidable warriors whose most fearsome weapon was the double-curved bow with bone ends. They lived on horseback, from which they took advantage of everything, they dressed and wore leather, they wore helmet, breastplate, shield along with the quiver and curved saber. Their squads evolved to the sound of hunting horns and their charges and sudden withdrawals surprised their enemies. They were careful not to ever sell whole horses or mares to China. During these centuries, the Xiongnu (hsiung-nu) gathered under their rule other steppe tribes, forming a large confederation. In 209 BC, just three years before the founding of the Han Dynasty, the Xiongnu were assembled into a powerful confederation under a new chanyu.",
 	"Music": [],
-	"Factions": [
-		{
-			"Name": "Xiongnu",
-			"Description": "",
-			"Technologies": [],
-			"Heroes": []
-		}
-	],
 	"CivBonuses": [
 		{
-			"Name": "Nomads Tribes",
+			"Name": "Nomadic Tribes",
 			"History": "Xiongnu were nomadic pastoral people.",
 			"Description": "Ignore phase requirements."
-		},
-		{
-			"Name": "Parthian Tactics",
-			"History": "Xiongnu practiced the parthian shot tactics.",
-			"Description": "-15% ranged cavalry tech cost.."
 		}
 	],
-	"TeamBonuses": [
-		{
-			"Name": "Horse Breeding",
-			"History": "The Xiongnu were pastoral nomadic people wandering in search of grazing lands for their herds of horses.",
-			"Description": "Cavalry is 15% cheaper."
-		}
-	],
-	"Structures": [],
 	"StartEntities": [
 		{
 			"Template": "structures/xion/civil_centre"
