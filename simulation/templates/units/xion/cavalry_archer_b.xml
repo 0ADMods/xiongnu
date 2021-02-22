@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_archer">
+  <Attack>
+    <Ranged>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce>7.0</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+      <MaxRange>72.0</MaxRange>
+      <MinRange>20.0</MinRange>
+      <Projectile>
+        <Speed>75.0</Speed>
+        <Spread>3.0</Spread>
+      </Projectile>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+    </Ranged>
+  </Attack>
+  <Identity>
+    <Civ>xion</Civ>
+    <SelectionGroupName>units/xion/cavalry_archer</SelectionGroupName>
+    <Icon>units/xion_cav_archer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/xion/cavalry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/xion/cavalry_archer_b_m.xml</Actor>
+  </VisualActor>
+</Entity>
