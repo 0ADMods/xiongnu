@@ -24,6 +24,6 @@
 	"requirementsTooltip": "Requires 12 Yurts.",
 	"icon": "helmet_corinthian_crest.png",
 	"researchTime": 90,
-	"tooltip": "Unlock the ability to train Champions at the barracks.",
+	"tooltip": "Unlock the ability to train Champions at the corral.",
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
