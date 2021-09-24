@@ -13,6 +13,9 @@
       units/{civ}/infantry_archer_b
       units/{civ}/infantry_spearman_b
       units/{civ}/cavalry_spearman_b
+      units/{civ}/hero_modu
+      units/{civ}/hero_touman
+      units/{civ}/hero_laoshang
     </Entities>
     <Technologies datatype="tokens">
       attack_soldiers_will
