@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_temple">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
   <Footprint replace="">
     <Circle radius="10.0"/>
     <Height>10.0</Height>
@@ -7,19 +10,22 @@
   <Identity>
     <Civ>xion</Civ>
   </Identity>
-  <BuildRestrictions>
-    <Territory>own neutral</Territory>
-  </BuildRestrictions>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Entities disable=""/>
+  <Obstruction>
+    <Static width="14.0" depth="14.0"/>
+  </Obstruction>
+  <Researcher>
     <Technologies datatype="tokens">
       -heal_range
       -heal_range_2
       -heal_rate
       -heal_rate_2
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
+  <TerritoryDecay disable=""/>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities disable=""/>
+  </Trainer>
   <Upgrade>
     <Unpack>
       <Entity>structures/xion/temple_packed</Entity>
@@ -27,10 +33,6 @@
       <RequiredTechnology>nomadism</RequiredTechnology>
     </Unpack>
   </Upgrade>
-  <Obstruction>
-    <Static width="14.0" depth="14.0"/>
-  </Obstruction>
-  <TerritoryDecay disable=""/>
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/xion/temple.xml</Actor>

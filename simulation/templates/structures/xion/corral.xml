@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_stable">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
   <Footprint replace="">
     <Circle radius="15.0"/>
     <Height>8.0</Height>
@@ -15,18 +18,6 @@
   <Obstruction>
     <Static width="26.0" depth="26.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      gaia/fauna_sheep_trainable
-    </Entities>
-    <Technologies datatype="tokens">
-      -unlock_champion_cavalry
-      gather_animals_nomadic_pastoralism
-    </Technologies>
-  </ProductionQueue>
-  <BuildRestrictions>
-    <Territory>own neutral</Territory>
-  </BuildRestrictions>
   <Population>
     <Bonus>8</Bonus>
   </Population>
@@ -34,6 +25,18 @@
     <Anchor>pitch</Anchor>
     <TurnRate>0.0001</TurnRate>
   </Position>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -unlock_champion_cavalry
+      gather_animals_nomadic_pastoralism
+    </Technologies>
+  </Researcher>
+  <TerritoryDecay disable=""/>
+  <Trainer>
+    <Entities datatype="tokens">
+      gaia/fauna_sheep_trainable
+    </Entities>
+  </Trainer>
   <Upgrade>
     <Pack>
       <Entity>structures/xion/corral_packed</Entity>
@@ -41,7 +44,6 @@
       <RequiredTechnology>nomadism</RequiredTechnology>
     </Pack>
   </Upgrade>
-  <TerritoryDecay disable=""/>
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/xion/corral.xml</Actor>
